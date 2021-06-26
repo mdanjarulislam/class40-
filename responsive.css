@@ -1,0 +1,516 @@
+  @media all and (min-width:1400px) {
+    .mid-content {
+        
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+      
+  }
+  @media all and (max-width:1400px) {
+    .mid-content {
+        
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .video-content-right h3 {
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }  
+  }
+  @media all and (max-width:1200px) {
+    .primary-menu ul li a {
+        padding: 0 15px;
+        font-size: 15px;
+         
+    }
+    .logo span {
+         
+        margin-top: 23px;
+        font-size: 20px;
+         
+    }
+      
+    .section-title h1 {
+        font-size: 53px;
+        margin-bottom: 30px;
+    }
+    .section-title h2 {
+        font-size: 48px;
+         
+    }
+    .section-title p {
+        
+        font-size: 20px;
+        
+    }
+
+    .blog-post-item img {
+        float: none;
+        width: 100%;
+        margin-right: 30px;
+    }
+    .blog-post-content p {
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    .blog-post-content h3 {
+         
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }
+    .section-title.newslatter-title h2 {
+        
+        font-size: 40px;
+    }
+    
+  }
+  @media all and (max-width:1050px) {
+    .header-btn {
+         
+        padding: 10px 20px;
+         
+    }
+
+    .video-content-right h3 {
+        font-size: 39px;
+        margin-bottom: 10px;
+    }
+   
+    .video-content-right p {
+        font-size: 17px;
+    }
+    .section-title h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    .section-title p {
+        color: #767676;
+        font-size: 21px;
+        font-weight: 300;
+    }
+    .service-box {
+        width: 48%;
+       
+    }
+    .service-box:nth-child(3n+3) {
+        margin-right: 15px;
+      }
+    .service-box:nth-child(2n+2) {
+        margin-right: 0;
+       
+      }
+      
+  }
+
+/* headermenu span */
+
+
+.header-menu span {
+    display: none;
+}
+    @media all and (max-width:1150px) {
+        .p-heading h4 {
+            font-size: 20px;
+            
+        }.p-heading p {
+            font-size: 18px;
+            line-height: 1.5em;
+        }
+        .p-content ul li {
+           
+            font-size: 17px;
+        }
+        .p-content ul li span {
+            
+            font-size: 27px;
+           
+            width: 43px;
+        }
+
+        .default-btn {
+            
+            padding: 15px 20px;
+            font-size: 15px;
+          
+            
+        }
+        .team-section .section-title h2 {
+            font-size: 34px;
+        }
+        .section-title.newslatter-title h2 {
+        
+            font-size: 35px;
+        }
+    }
+    @media all and (max-width:960px) {
+        
+        .video-content-right h3 {
+            font-size: 35px;
+            
+            margin-bottom: 10px;
+        }
+        .video-content-right p {
+             
+            font-size: 17px;
+            
+        }
+        .pricing-table-item {
+            width: 100%;
+            margin-top: 25px; 
+        }
+      
+    }
+/* .header-menu-check */
+.header-menu-check {
+    opacity: 0;
+}
+
+  @media all and (max-width:885px) {
+ 
+    .header-logo {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .logo img {
+       
+        float: inherit;
+        
+    }
+    .logo span {
+        
+       
+        position: relative;
+        top: -16px;
+    }
+    .header-section {
+         padding-bottom: 40px;
+    } 
+      
+    .header-button {
+        width: 200px;
+        position: absolute;
+        right: 20px;
+        top: 60px;
+    }
+    .header-menu ul{
+        height: 0;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .header-menu span {
+        font-size: 40px;
+        color: #6278df;
+        cursor: pointer;
+        display: block;
+        width:100%;
+       
+    }
+    .banner-content h3 {
+        font-size: 22px;
+         
+    }
+    .banner-content h2 {
+        font-size: 50px;
+         
+    }
+    .video-content-right h3 {
+        font-size: 30px;
+        
+        margin-bottom: 10px;
+    }
+    .video-content-right p {
+         
+        font-size: 16px;
+        
+    }
+
+    .section-title h2 {
+        font-size: 42px;
+         
+    }
+    .section-title p {
+        
+        font-size: 15px;
+        
+    }
+    .team-section .section-title h2 {
+        font-size: 30px;
+    }
+    .header-section {
+        
+        position: relative;
+        
+    }
+    .banner-section {
+        padding: 100px 0;
+        margin-top: 0px;
+    }
+
+    .primary-menu .header-menu-check:checked~ul{
+        height: 100%;
+        opacity: 1;
+        visibility: visible;
+         
+    }
+    .primary-menu ul li {
+        display: block;
+         
+    }
+    
+    .primary-menu ul li a {
+       line-height: 40px;
+    }
+
+    .primary-menu ul li ul {
+       top: -80px;
+       left: 120px;
+        
+    }
+
+    .header-menu-icon {
+       position:absolute;
+       top: 75px;
+       left: 18px;
+       pointer-events: none;
+         
+    }
+    .header-menu-check {
+        opacity: 0;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+    
+    
+
+
+
+  } 
+  @media all and (max-width:875px){
+
+    .video-content-right h3 {
+        font-size: 30px;
+        
+    }
+    .video-content-right p {
+        font-size: 15px;
+    }
+    .section-title h1 {
+        font-size: 40px;
+         
+    }
+    .section-title p {
+        
+        font-size: 19px;
+      
+    }
+  
+    .section-title.newslatter-title h2 {
+        
+        font-size: 30px;
+    }
+  
+@media all and (max-width:850px) {
+
+    .member {
+        width: 48%;
+        margin-top: 25px;
+    }
+  
+    .section-title p {
+       
+        font-size: 16px;
+         
+    }
+    .section-title.newslatter-title h2 {
+         
+        font-size: 35px;
+    }
+    .i-item {
+        width: 100%;
+       
+    }
+    
+    .t-content {
+      
+        margin: 25px;
+    }
+}
+@media all and (max-width:775px) {
+
+    .section-title h2 {
+        font-size: 37px;
+         
+    }
+    .section-title p {
+        font-size: 15px;
+    }
+    .section-title.newslatter-title h2 {
+        
+        font-size: 25px;
+    }
+    
+    .content-left-map {
+        width: 100%;
+    }
+    .content-right-form {
+        width: 100%;
+      
+    }
+    .footer-contact-from .submit-btn {
+        width: 35%;
+        margin: auto !important;
+        display: flex;
+        justify-content: center;
+      
+    }
+}
+@media all and (max-width:700px) {
+
+    .video-left {
+        width: 100%;
+    }
+    .video-content-right {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .section-title h1 {
+        font-size: 34px;
+         
+    }
+    .section-title h2 {
+        font-size: 32px;
+         
+    }
+    .section-title p {
+        font-size: 12px;
+    }
+ 
+    .service-box {
+        width: 100%;
+       
+    }
+    .team-section .section-title h2 {
+        font-size: 25px;
+    }
+    .default-input {
+        width: 100%;
+     
+    }
+    .submit-btn {
+        margin-top: 25px;
+    }
+    .bt-content {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .bt-content p {
+         
+        font-size: 17px;
+        
+    }
+
+}
+@media all and (max-width:650px) {
+
+    .section-title p {
+        
+        font-size: 14px;
+         
+    }
+    .section-title.newslatter-title h2 {
+         
+        font-size: 27px;
+    }
+    .b-hading h2 {
+        font-size: 35px;
+        font-weight: 400;
+        
+    }
+ 
+}
+@media all and (max-width:630px) {
+    .video-content-right h3 {
+        font-size: 28px;
+        
+    }
+    .section-title h1 {
+        font-size: 30px;
+         
+    }
+    .section-title p {
+        
+        font-size: 17px;
+      
+    }
+    .team-section .section-title h2 {
+        font-size: 20px;
+    }
+    
+    
+
+}
+@media all and (max-width:560px) {
+    
+    .video-content-right h3 {
+        font-size: 25px;
+        
+    }
+    .video-content-right p {
+        font-size: 15px;
+    }
+    .section-title h1 {
+        font-size: 25px;
+         
+    }
+    .b-hading h2 {
+        font-size: 25px;
+       
+        
+    }
+    .member {
+        width:100%;
+        margin-top: 25px;
+       
+    }
+    .blog-post-item {
+        width: 100%;
+        margin-top: 25px;
+        
+    }
+    .blog-post-content p {
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    
+    
+  
+   
+}
+@media all and (max-width:500px) {
+    
+    .banner-content h2 {
+        font-size: 40px;
+         
+    }
+    .default-btn {
+       
+        
+        width: 80%;
+        margin: 10px auto;
+        
+    }
+    .section-title h1 {
+        font-size: 22px;
+         
+    }
+    .section-title p {
+        
+        font-size: 15px;
+      
+    }
+}
